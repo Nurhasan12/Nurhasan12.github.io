@@ -1,3 +1,8 @@
+:root {
+  --primaryIconColor: #7e74f1; /* untuk icon utama */
+  --primaryIconColorHover: #5d51e8; /* untuk icon utama ketika di hover */
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -32,12 +37,12 @@ body {
 }
 
 .blog-heading span {
-  color: #f33c3c;
+  color: black;
 }
 
 .blog-heading h3 {
   font-size: 2.4rem;
-  color: #2b2b2b;
+  color: var(--primaryIconColorHover);
   font-weight: 600;
 }
 
